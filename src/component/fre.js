@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 export default function Fre() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -48,6 +51,7 @@ export default function Fre() {
                 className="border-2 border-gray-100 rounded-lg dark:border-gray-700"
                 onMouseEnter={() => handleHover(index)}
                 onMouseLeave={() => handleHover(null)}
+                data-aos="zoom-in" data-aos-duration="2500"
               >
                 <button className="flex items-center justify-between w-full p-8">
                   <h1 className="font-semibold text-2xl text-gray-700"  dangerouslySetInnerHTML={{

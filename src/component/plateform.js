@@ -40,7 +40,7 @@ export default function Plateform() {
     {
       img: 'https://unikon.ai/freelancer.svg',
       title: 'Freelancer',
-      des: 'Find opportunities and control when, where and how you work',
+      des: 'Find opportunities and control when, where and how you work ....',
     },
   ];
 
@@ -55,7 +55,10 @@ export default function Plateform() {
           </div>
           <div className="flex flex-wrap -m-4">
             {val.map((v, index) => (
-              <div className="xl:w-1/4 md:w-1/2 p-4" aria-label={`card-sec-${index}`} key={index}>
+              <div className="xl:w-1/4 md:w-1/2 p-4 " aria-label={`card-sec-${index}`} key={index}  data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="800"
+              >
                 <div className="border shadow-md  bg-slate-50 border-gray-200 p-6 rounded-lg transition transform hover:scale-105">
                   <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-indigo-100 text-indigo-500 mb-4">
                     <img src={v.img} alt={`${v.title} Icon`} />
