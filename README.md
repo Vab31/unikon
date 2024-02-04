@@ -1,4 +1,4 @@
-# Unikon Demo Landing Page
+# Unikon.ai Demo Landing Page
 
 This page is created to showcase my skills in frontend development. It serves as the landing page for the fictional company "Unikon". 
 
