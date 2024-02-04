@@ -4,7 +4,7 @@ This page is created to showcase my skills in frontend development. It serves as
 
 ## Features
 
-- Utilizes Tailwind CSS for styling, providing a modern and responsive design.
+- Utilizes Tailwind CSS for styling, providing a modern and responsive design using Reactjs.
 - Incorporates animations to enhance the visual appeal of the page.
 
 ## Getting Started
